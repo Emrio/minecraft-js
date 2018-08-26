@@ -1,0 +1,12 @@
+{
+  "name": "minecraft-js",
+  "version": "1.0.0",
+  "description": "Minecraft API for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "Emrio <emrio@emrio.fr>",
+  "license": "MIT"
+}
