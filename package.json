@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Emrio <emrio@emrio.fr>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
