@@ -1,5 +1,6 @@
 const MCAPI_PLAYERS = require('./lib/apis/Players')
 const MCAPI_MISC = require('./lib/apis/Misc')
+const MCAPI_SERVERS = require('./lib/apis/Servers')
 
 module.exports = class MCAPI {
 
@@ -15,6 +16,13 @@ module.exports = class MCAPI {
    */
   static get misc() {
     return MCAPI_MISC
+  }
+
+  /**
+   * @static @attribute misc - Miscleanious methods
+   */
+  static get servers() {
+    return MCAPI_SERVERS
   }
 
   /**
