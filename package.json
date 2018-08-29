@@ -4,12 +4,13 @@
   "description": "Minecraft API for JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Emrio <emrio@emrio.fr>",
   "license": "MIT",
   "dependencies": {
+    "js-base64": "^2.4.9",
     "request": "^2.88.0"
   }
 }
