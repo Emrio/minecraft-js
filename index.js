@@ -1,6 +1,7 @@
 const MCAPI_PLAYERS = require('./lib/apis/Players')
 const MCAPI_MISC = require('./lib/apis/Misc')
 const MCAPI_SERVERS = require('./lib/apis/Servers')
+const MCAPI_ACCOUNTS = require('./lib/apis/Accounts')
 
 module.exports = class MCAPI {
 
@@ -19,10 +20,17 @@ module.exports = class MCAPI {
   }
 
   /**
-   * @static @attribute misc - Miscleanious methods
+   * @static @attribute servers - Methods for servers
    */
   static get servers() {
     return MCAPI_SERVERS
+  }
+
+  /**
+   * @static @attribute accounts - Method for Mojang Accounts
+   */
+  static get accounts() {
+    return MCAPI_ACCOUNTS
   }
 
   /**
