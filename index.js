@@ -27,7 +27,7 @@ module.exports = class MCAPI {
   }
 
   /**
-   * @static @attribute accounts - Method for Mojang Accounts
+   * @static @attribute accounts - Methods for Mojang Accounts
    */
   static get accounts() {
     return MCAPI_ACCOUNTS
