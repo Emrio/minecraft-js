@@ -61,6 +61,8 @@ Feel free to contribute to the project!
 
 Some attributes are not documented, especially some from `MojangAccountProperties` because no information have been found. Contributing to the docs would be greatly appreciated!
 
+Please follow the [guidelines][link-contrib] when contributing!
+
 ## To do
 
 The following features are not implemented yet:
@@ -83,6 +85,7 @@ Minecraft-js is not affiliated by anyway with Mojang AB. This library is in fact
 [link-docs]: https://github.com/TheEmrio/minecraft-js/blob/master/docs
 [link-examples]: https://github.com/TheEmrio/minecraft-js/tree/master/examples
 [link-license]: https://github.com/TheEmrio/minecraft-js/blob/master/LICENSE
+[link-contrib]: https://github.com/TheEmrio/minecraft-js/blob/master/CONTRIBUTING.md
 [link-repo]: https://github.com/TheEmrio/minecraft-js
 [link-author]: https://github.com/TheEmrio
 [link-site]: https://emrio.fr
