@@ -1,6 +1,6 @@
-const mcjs = require('..')
+const MCAPI = require('..')
 
-mcjs.misc.fetch_status()
+MCAPI.misc.fetch_status()
   .then(services => {
     for (const service in services) {
       switch (services[service]) {

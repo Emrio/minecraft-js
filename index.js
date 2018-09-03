@@ -13,7 +13,7 @@ module.exports = class MCAPI {
   }
 
   /**
-   * @static @attribute misc - Miscleanious methods
+   * @static @attribute misc - Miscellaneous methods
    */
   static get misc() {
     return MCAPI_MISC

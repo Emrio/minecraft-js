@@ -1,6 +1,6 @@
-const mcjs = require('..')
+const MCAPI = require('..')
 
-mcjs.players.get("Notch")
+MCAPI.players.get("Notch")
   .then(player => {
     console.log("Username : " + player.username)
     console.log("UUID : " + player.uuid)
