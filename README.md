@@ -1,4 +1,4 @@
-# minecraft-js [![npm version][img-version]][link-npm-package] [![license][img-license]][link-license]
+# minecraft-lib [![npm version][img-version]][link-npm-package] [![license][img-license]][link-license]
 
 > A pure-JS, promise-based, easy to use library for Minecraft and Mojang API in JavaScript
 
@@ -20,13 +20,13 @@ Some things you can do with this library :
 In your npm project, simply type :
 
 ```shell
-$ npm install minecraft-js --save
+$ npm install minecraft-lib --save
 ```
 
 ## Basic usage
 
 ```js
-const MCAPI = require("minecraft-js")
+const MCAPI = require("minecraft-lib")
 
 MCAPI.players.get("Notch")
   .then(player => {
@@ -86,7 +86,7 @@ Minecraft-js is not affiliated by anyway with Mojang AB. This library is in fact
 [link-repo]: https://github.com/TheEmrio/minecraft-js
 [link-author]: https://github.com/TheEmrio
 [link-site]: https://emrio.fr
-[link-npm-package]: https://www.npmjs.com/package/minecraft-js
+[link-npm-package]: https://www.npmjs.com/package/minecraft-lib
 
 [link-minecraft-data]: https://github.com/PrismarineJS/node-minecraft-data
 [link-request]: https://github.com/request/request
@@ -95,5 +95,5 @@ Minecraft-js is not affiliated by anyway with Mojang AB. This library is in fact
 [link-mojang-api]: https://github.com/minecrafter/mojang-api
 [link-node-mojang]: https://github.com/maccelerated/node-mojang
 
-[img-version]: https://img.shields.io/npm/v/minecraft-js.svg
-[img-license]: https://img.shields.io/npm/l/minecraft-js.svg
+[img-version]: https://img.shields.io/npm/v/minecraft-lib.svg
+[img-license]: https://img.shields.io/npm/l/minecraft-lib.svg

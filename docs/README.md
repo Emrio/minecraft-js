@@ -1,4 +1,4 @@
-# minecraft-js documentation
+# minecraft-lib documentation
 
 > The reference for methods and attributes of the library
 
