@@ -1,6 +1,6 @@
 {
   "name": "minecraft-lib",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Minecraft API for JavaScript",
   "main": "index.js",
   "scripts": {
