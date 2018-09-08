@@ -39,8 +39,14 @@ The IP of the server
 - `port: Number`
 The port of the server
 
-- `motd: String`
+- `motd: Object`
 The *message of the day* of the server (aka description)
+
+ - `raw: String`
+ The raw string of the motd
+
+ - `formatted: String`
+ A formatted version with removed start and end spaces
 
 - `players: ServerPlayers`
 Players related information of the server (connected, max, sample)
